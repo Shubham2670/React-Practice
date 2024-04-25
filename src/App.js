@@ -7,6 +7,11 @@ import About from './React Practice/About';
 import { useState } from 'react';
 import Fetchs from './React Practice/Apis/Fetchs';
 import Fatchasyn from './React Practice/Apis/Fatchasyn';
+import Axiosmathod from './React Practice/Apis/Axiosmathod';
+import AxiosPut from './React Practice/Apis/AxiosPut';
+import Imageappend from './React Practice/Apis/Imageappend';
+import Formdata from './React Practice/Apis/Formdata';
+
 
 function App() {
  {/* const [newdata ,setNewdata] = useState([])
@@ -22,7 +27,11 @@ console.log(newdata,"ffsfsewe")*/}
     </Routes>
   </BrowserRouter> */}
   {/* <Fetchs/>*/}
-  <Fatchasyn/>
+  {/*  <Fatchasyn/>>*/}
+{/*  <Axiosmathod/>*/}
+{/* <AxiosPut/>*/}
+{/*<Imageappend/>*/}
+<Formdata/>
     </div>
   );
 }

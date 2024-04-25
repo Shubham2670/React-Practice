@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const Fetchs = () => {
   const [data ,setData]=useState([])
-    const url = "http://localhost:3000/posts"
+    const url ="http://localhost:3003/posts"
 
     useEffect(()=>{
         fetch(url).then(resp=> resp.json()).then(d=> setData(d))
